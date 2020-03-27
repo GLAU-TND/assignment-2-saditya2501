@@ -6,5 +6,31 @@
  */
 package problem5.main;
 //executable class
+import problem5.circularqueue.MyCircularQueue;
+
 public class MyMain {
+
+    public static void main(String[] args) {
+
+
+        MyCircularQueue obj = new MyCircularQueue();
+
+//        obj.insert("ayush", 1, 0);
+
+        obj.insert("a", 1, 0);
+
+        obj.insert("b", 2, 1);
+
+        obj.insert("c", 3, 2);
+
+        obj.display();
+
+        System.out.println("-------------------------------");
+
+        obj.DeleteNode();
+
+        // obj.display();
+
+    }
+
 }
